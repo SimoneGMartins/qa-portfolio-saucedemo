@@ -22,12 +22,22 @@ Este projeto foi desenvolvido para praticar e demonstrar habilidades em QA (Qual
 - Validação de fluxos principais como login e carrinho
 
 ---
+## 🔌 Testes de API
+
+Testes realizados utilizando Postman com validações de:
+
+- Status code (200, 201)
+- Estrutura da resposta
+- Validação de dados retornados (id)
+
+Collection disponível na pasta `postman/`
 
 ## 📁 Estrutura do projeto
 
 - `test-cases/` → Casos de teste manuais  
 - `evidencias/` → Prints das execuções  
-- `cypress/` → Testes automatizados  
+- `cypress/` → Testes automatizados
+- `postman/` →  Testes de API
 
 ---
 ## 🐞 Bugs encontrados
