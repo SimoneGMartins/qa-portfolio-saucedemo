@@ -30,6 +30,9 @@ Este projeto foi desenvolvido para praticar e demonstrar habilidades em QA (Qual
 - `cypress/` → Testes automatizados  
 
 ---
+## 🐞 Bugs encontrados
+
+- Imagens incorretas ao utilizar o usuário problem_user
 
 ## 🚀 Como executar os testes automatizados
 
