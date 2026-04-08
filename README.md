@@ -13,10 +13,6 @@ Este projeto foi desenvolvido para praticar e demonstrar habilidades em QA (Qual
 - Cenários positivos e negativos
 - Validação de funcionalidades como login, produtos e carrinho
 
-### 📸 Evidências
-- Capturas de tela dos testes executados
-- Comprovação dos resultados obtidos
-
 ### 🤖 Testes Automatizados
 - Automação de testes end-to-end utilizando Cypress
 - Validação de fluxos principais como login e carrinho
@@ -31,6 +27,14 @@ Testes realizados utilizando Postman com validações de:
 - Validação de dados retornados (id)
 
 Collection disponível na pasta `postman/`
+
+## ⚙️ CI/CD
+
+Pipeline configurado com GitHub Actions para execução automática dos testes Cypress a cada push na branch main.
+
+### 📸 Evidências
+- Capturas de tela dos testes executados
+- Comprovação dos resultados obtidos
 
 ## 📁 Estrutura do projeto
 
