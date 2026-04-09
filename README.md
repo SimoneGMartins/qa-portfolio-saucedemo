@@ -1,4 +1,5 @@
 # 🧪 QA Portfolio – SauceDemo
+🚀 Projeto completo de QA com testes manuais, automação (Cypress e Playwright), API e CI/CD.
 
 Projeto prático de Qualidade de Software (QA) com foco em testes manuais, automação, API e integração contínua, utilizando a aplicação SauceDemo como base.
 
@@ -103,12 +104,8 @@ As evidências dos testes estão organizadas na pasta:
 
 📂 `evidencias/`
 
-🚀 Sobre mim
+## 🚀 Sobre mim
 
-Profissional com mais de 20 anos de experiência no setor financeiro, atualmente em transição para a área de tecnologia com foco em Qualidade de Software (QA).
+Profissional com mais de 20 anos de experiência em qualidade e processos no setor financeiro, atualmente em transição para a área de Qualidade de Software (QA).
 
-Tenho experiência prática com testes manuais, automação, API e CI/CD, aliando minha visão analítica e atenção a detalhes para garantir qualidade de software.
-
-🔗 Contato
-
-LinkedIn: https://www.linkedin.com/in/simone-martins-38a553187/
+Tenho experiência prática em testes manuais, automação (Cypress e Playwright), testes de API e CI/CD, aliando minha visão analítica, atenção a detalhes e foco em melhoria contínua para garantir a qualidade de aplicações.
