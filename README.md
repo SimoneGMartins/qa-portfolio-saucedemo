@@ -16,8 +16,22 @@ Este projeto foi desenvolvido para praticar e demonstrar habilidades em QA (Qual
 ### 🤖 Testes Automatizados
 - Automação de testes end-to-end utilizando Cypress
 - Validação de fluxos principais como login e carrinho
-
 ---
+## 🎭 Testes Automatizados com Playwright
+
+Implementação de testes automatizados utilizando Playwright, explorando uma abordagem moderna para testes end-to-end.
+
+### 🔍 Cenário testado
+- Login com sucesso na aplicação SauceDemo
+
+### ⚙️ Tecnologias utilizadas
+- Playwright
+- JavaScript
+
+### ▶️ Como executar
+
+```bash
+npx playwright test
 ## 🔌 Testes de API
 
 Testes realizados utilizando Postman com validações de:
