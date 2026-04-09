@@ -102,3 +102,13 @@ Execução automática dos testes utilizando GitHub Actions a cada atualização
 As evidências dos testes estão organizadas na pasta:
 
 📂 `evidencias/`
+
+🚀 Sobre mim
+
+Profissional com mais de 20 anos de experiência no setor financeiro, atualmente em transição para a área de tecnologia com foco em Qualidade de Software (QA).
+
+Tenho experiência prática com testes manuais, automação, API e CI/CD, aliando minha visão analítica e atenção a detalhes para garantir qualidade de software.
+
+🔗 Contato
+
+LinkedIn: https://www.linkedin.com/in/simone-martins-38a553187/
