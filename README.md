@@ -1,69 +1,104 @@
-# qa-portfolio-saucedemo
-Projeto de testes de software utilizando SauceDemo, com testes manuais, automação E2E com Cypress, testes de API e integração contínua.
-## 🔍 Sobre o projeto
+# 🧪 QA Portfolio – SauceDemo
 
-Este projeto foi desenvolvido para praticar e demonstrar habilidades em QA (Quality Assurance), utilizando a aplicação SauceDemo como base.
+Projeto prático de Qualidade de Software (QA) com foco em testes manuais, automação, API e integração contínua, utilizando a aplicação SauceDemo como base.
 
 ---
 
-## 🧪 Testes realizados
+## 🎯 Objetivo
 
-### ✔️ Testes Manuais
-- Criação e execução de casos de teste
-- Cenários positivos e negativos
-- Validação de funcionalidades como login, produtos e carrinho
+Demonstrar na prática habilidades em testes de software, incluindo:
 
-### 🤖 Testes Automatizados
-- Automação de testes end-to-end utilizando Cypress
-- Validação de fluxos principais como login e carrinho
+- Planejamento e execução de testes
+- Criação de casos de teste
+- Identificação e documentação de bugs
+- Automação de testes
+- Testes de API
+- Integração contínua (CI/CD)
+
 ---
-## 🎭 Testes Automatizados com Playwright
 
-Implementação de testes automatizados utilizando Playwright, explorando uma abordagem moderna para testes end-to-end.
+## 🛠️ Tecnologias e Ferramentas
 
-### 🔍 Cenário testado
-- Login com sucesso na aplicação SauceDemo
+- Cypress (automação E2E)
+- Playwright (automação E2E moderna)
+- Postman (testes de API)
+- GitHub Actions (CI/CD)
 
-### ⚙️ Tecnologias utilizadas
-- Playwright
-- JavaScript
+---
 
-### ▶️ Como executar
+## 🧪 Testes Manuais
+
+- Criação de cenários de teste baseados em critérios de aceite
+- Execução de testes funcionais e regressivos
+- Registro de evidências
+- Documentação de bugs
+
+📂 Pasta: `test-cases/`  
+📂 Evidências: `evidencias/`
+
+---
+
+## 🤖 Automação com Cypress
+
+Testes automatizados de fluxos principais da aplicação:
+
+- Login
+- Adição de produtos ao carrinho
+
+📂 Pasta: `cypress/`
+
+---
+
+## 🎭 Automação com Playwright
+
+Implementação de testes automatizados utilizando Playwright, explorando execução paralela e maior performance.
+
+### Cenário testado:
+- Login com sucesso
+
+### Execução:
 
 ```bash
 npx playwright test
-## 🔌 Testes de API
+### Relatório
 
-Testes realizados utilizando Postman com validações de:
+Para visualizar o relatório de execução dos testes:
 
-- Status code (200, 201)
-- Estrutura da resposta
-- Validação de dados retornados (id)
+    npx playwright show-report
 
-Collection disponível na pasta `postman/`
-
-## ⚙️ CI/CD
-
-Pipeline configurado com GitHub Actions para execução automática dos testes Cypress a cada push na branch main.
-
-### 📸 Evidências
-- Capturas de tela dos testes executados
-- Comprovação dos resultados obtidos
-
-## 📁 Estrutura do projeto
-
-- `test-cases/` → Casos de teste manuais  
-- `evidencias/` → Prints das execuções  
-- `cypress/` → Testes automatizados
-- `postman/` →  Testes de API
+📂 Evidências: `evidencias/playwright/`
 
 ---
-## 🐞 Bugs encontrados
 
-- Imagens incorretas ao utilizar o usuário problem_user
+## 🔗 Testes de API
 
-## 🚀 Como executar os testes automatizados
+Testes realizados utilizando Postman para validação de endpoints, incluindo:
 
-```bash
-npm install
-npx cypress open
+- Verificação de status code  
+- Validação de estrutura de resposta  
+
+📂 Pasta: `postman/`
+
+---
+
+## 🐞 Reporte de Bugs
+
+- Identificação de inconsistências  
+- Registro detalhado com passos para reprodução  
+- Inclusão de evidências  
+
+📂 Pasta: `bugs/`
+
+---
+
+## ⚙️ Integração Contínua (CI/CD)
+
+Execução automática dos testes utilizando GitHub Actions a cada atualização no repositório.
+
+---
+
+## 📸 Evidências
+
+As evidências dos testes estão organizadas na pasta:
+
+📂 `evidencias/`
